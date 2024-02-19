@@ -13,9 +13,6 @@ class CryptocurrencyTracker extends Component {
   }
 
   formedData = async () => {
-    const options = {
-      method: 'GET',
-    }
     const response = await fetch(
       'https://apis.ccbp.in/crypto-currency-converter',
       options,
